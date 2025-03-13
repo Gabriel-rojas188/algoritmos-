@@ -1,0 +1,7 @@
+Algoritmo mi_barco
+escribir "    --  --  --  --  --  --  --  --   /"
+escribir  "-----------------------------------/"
+escribir   "\                                /"
+escribir    "\  []  []  []  []  []  []  []  /"
+escribir     "\____________________________/"
+FinAlgoritmo
