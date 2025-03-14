@@ -1,0 +1,10 @@
+Algoritmo sin_titulo
+	definir n COMO ENTERO
+	definir res Como Entero
+	
+	mostrar [n]
+	escribir "Base del factorial";
+	leer n;
+    escribir "factorial de ",n," es: ", factorial (n);
+FinProceso
+ SubProceso 
