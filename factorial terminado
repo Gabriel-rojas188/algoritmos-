@@ -1,0 +1,11 @@
+Algoritmo sin_titulo
+	definir n,f COMO ENTERO
+    f<- 1	
+	escribir "Base del factorial";
+	leer n;
+    para i<-1 hasta n con paso 1 Hacer
+		escribir "",i
+		f<-f*i
+	FinPara
+	escribir "factorial de ",n," es: ", f
+FinAlgoritmo
