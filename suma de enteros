@@ -1,0 +1,12 @@
+Algoritmo sin_titulo
+	definir suma,n COMO ENTERO
+	escribir "ingresa un numero a sumar";
+	leer n;
+	suma=0
+	para i=1 hasta n con paso 1
+		Escribir "introduce el numero",i,":"
+		leer numero
+		suma = suma + numero
+	FinPara
+escribir "la suma de los numeros es: ", suma
+FinAlgoritmo
