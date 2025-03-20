@@ -1,0 +1,28 @@
+Algoritmo sin_titulo
+	definir tempmin, tempmax,sumaDeTemps Como entero
+	definir temperatura como real
+	definir i Como Entero
+	tempmin <- +9999
+	tempmax <- 9999
+	Para i<-0 Hasta 6 Con Paso 1 Hacer
+        escribir "Digite la temperatura del dia : " i + 1 
+		leer temperatura
+		
+		Si temperatura < tempmin Entonces
+			tempmin <- temperatura
+		FinSi
+		
+			
+		Si temperatura > tempmin Entonces
+			tempmax <- temperatura
+		FinSi
+		
+		sumaDeTemps <- sumaDeTemps + temperatura
+	Finpara
+	
+	promedio <- sumaDeTemps/7
+	
+	Escribir "la temperatura maxima es: " tempmax
+	escribir "la temperatura minima es: " tempmin
+	escribir "el promedio de las temperaturas es: " promedio
+FinAlgoritmo
