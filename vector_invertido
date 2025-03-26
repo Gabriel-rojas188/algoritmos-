@@ -1,0 +1,16 @@
+Algoritmo sin_titulo
+	definir vectores_cadenas, vectores_invertido como cadena
+	dimension vectores_cadenas(5), vectores_invertido(5)
+	para i<- 1 hasta 5 Hacer
+		escribir "introduce la cadena ",i,":"
+		leer vectores_cadenas(i)
+	FinPara
+	para i<-1 hasta 5 Hacer
+	vectores_invertido(i) <- vectores_cadenas(6-i)
+FinPara
+escribir "vector invertido es:"
+para i<- 1 hasta 5 hacer 
+	escribir vectores_invertido(i),""
+FinPara
+
+FinAlgoritmo
