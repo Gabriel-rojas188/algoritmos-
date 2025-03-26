@@ -1,0 +1,26 @@
+Algoritmo sin_titulo
+	definir notaMedia, notamax, notamin como real
+	definir notas, suma Como Real
+	dimension notas(5)
+	notamax <- 0
+	notamin <- 10
+	sumanotas <-0
+	para i <- 1 hasta 5 Hacer
+		escribir "ingresa la nota", i , "entre (0 y 10)" 
+		leer notas(i)
+	
+	// Comparar y actualizar las notas máxima y mínima
+	si notas(i) > notamax Entonces
+		notamax <- notas(i)
+	FinSi
+	si notas(i) < notamin Entonces
+		notamin <- notas(i)
+		// Acumulamos la suma de las notas para calcular la media después
+		sumanotas <- sumanotas + notas(i)
+	FinSi
+FinPara
+notaMedia <- sumaNotas / 5
+escribir "la nota maxima es:" notamax
+escribir "la nota minima es:" notamin
+escribir "la nota media es:" notaMedia
+FinAlgoritmo
