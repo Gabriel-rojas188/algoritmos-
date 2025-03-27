@@ -1,0 +1,19 @@
+Algoritmo sin_titulo
+	definir  preciollanta, descuento, total, cantidad, subtotal Como Real
+	definir nombre como cadena
+	escribir "digite el nombre del cliente:"
+	leer nombre
+	escribir "ingresa la cantidad de llantas compradas:"
+	leer cantidad
+	Si cantidad < 12 Entonces
+		preciollanta=250
+		descuento=0.20 //se aplica 25% de decuentoooo
+	SiNo
+		preciollanta=230
+		descuento=0.25
+		FinSi
+		subtotal = preciollanta*cantidad	
+		total= subtotal-(subtotal*descuento)
+		Escribir "El total a pagar para ", nombre, " es: ", total
+
+	FinAlgoritmo 
