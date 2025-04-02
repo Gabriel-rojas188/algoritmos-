@@ -1,0 +1,13 @@
+Algoritmo sin_titulo
+	definir pagoTotal, pagoMensual como entero
+	pagoTotal <- 0
+	pagoMensual <- 0
+	Para mes <- 1 Hasta 20 Con Paso 1 Hacer
+		pagoMensual <- mes * 10
+		escribir "ingrese la cantidad"
+		leer  pagoMensual	
+		pagoTotal<- pagoTotal+pagoMensual
+	Fin Para
+	escribir "valor pagado del mes:" pagoMensual
+	escribir "el pago total es:" pagoTotal
+FinAlgoritmo
